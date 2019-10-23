@@ -1,14 +1,12 @@
 import React from 'react'
-import Footer from '../components/footer';
-import Header from '../components/header';
+import Layout from '../components/layout';
 
 const Projects = () => {
   return (
-  <div>
-    <Header />
-    <h2>Some of my projects</h2>
-    <Footer />
-  </div>
+    <Layout>
+      <h2>Some of my projects</h2>
+      <p>Project gallery</p>
+    </Layout>
 )}
 
 export default Projects
